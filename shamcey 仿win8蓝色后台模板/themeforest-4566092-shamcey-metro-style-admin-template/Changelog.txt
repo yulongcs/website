@@ -1,0 +1,24 @@
+Version 1.2 – 05/20/2013
+
+Added: 54 new icons for FontAwesome icons
+Added: PSD Template file
+Added: Blank Page View
+Added: Grid Blog Page View
+Added: Timeline Page View
+Fixed: Table issue in hidden checkbox
+
+Version 1.1 – 05/02/2013
+
+Updated: Page title set to lower font size for mobile
+Updated: Responsive Landing page
+Fixed: Responsive Table fixed
+Fixed: IE8 bug display for userinfo in top header
+Added: Three level menu support
+Added: Colorpicker
+Added: Box with minimize button
+Added: Discussion page
+Added: Single topic page
+
+Version 1.0 – 04/23/2013
+
+Initial Release
