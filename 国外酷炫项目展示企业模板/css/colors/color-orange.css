@@ -1,0 +1,113 @@
+/*MainColor: #ff8d00*/
+
+::selection {background:#ff8d00;}
+::-moz-selection {background:#ff8d00;}
+
+header,
+footer,
+.footer_tools .footer_socials li a,
+header nav ul.menu li .menu_marker,
+#footer_bar .twitter_list li:before,
+.carouselslider .carousel-previous:hover, 
+.carouselslider .carousel-next:hover,
+blockquote.type2 .blockquote_wrapper:before,
+.carouselslider ul .item:hover .smallproflinks a,
+.featured_slider .img_block .post_type,
+.module_gallery .list-of-images .gallery_item hr,
+.module_gallery .list-of-images .gallery_item:hover .post_type,
+.price_item .price_item_btn a:hover,
+.price_item.most_popular .price_item_btn a:hover,
+.price_item.most_popular .price_item_title,
+.price_item.most_popular .price_item_btn a,
+.shortcode_button.btn_type4,
+.shortcode_button.btn_type1:hover,
+.btn_back:hover,
+.arrowButton .prevArrow:hover,
+.arrowButton .nextArrow:hover {
+	background-color:#ff8d00;
+}
+
+.shortcode_promoblock .promo_button:hover,
+.nivo-directionNav a:hover,
+#commentform #submit:hover,
+.feedback_form .feedback_go:hover,
+.portfolio_block .filter_img .post_type,
+.portfolio_block .filter_img hr,
+.btn_load_more:hover {
+	background-color:#ff8d00!important;
+}
+
+.tipsy-inner,
+.footer_search .field_search,
+#footer_bar .sidebar_header,
+#footer_bar .sidepanel a,
+.shortcode_iconbox:hover p,
+.shortcode_iconbox:hover h4,
+.shortcode_iconbox:hover .ico,
+ul.list_type0 li:before,
+.carouselslider ul li .item:hover .carousel_title h4,
+.carouselslider ul li .item:hover .carousel_title h4 a,
+.carouselslider ul li .item:hover .exc,
+.widget_nav_menu ul li a:hover,
+.dropcap.colored,
+.shortcode_accordion_item_title:hover, 
+.shortcode_toggles_item_title:hover,
+.module_highlighter .highlighter_item a:hover,
+.feedback_form .field-name:focus,
+.feedback_form .field-email:focus,
+.feedback_form .field-subject:focus,
+.feedback_form .field-message:focus,
+#commentform .form_field:focus,
+.shortcode_tab_item_title:hover,
+.module_price_table .price_item:hover .price_item_cost h1,
+.module_price_table .price_item:hover .price_item_cost h1 span,
+.price_item.most_popular .price_item_cost h1,
+.price_item.most_popular .price_item_cost h1 span,
+.filter_navigation ul li ul li a:hover,
+.columns2 .filter_img .portfolio_dscr .wrap_padding,
+.columns3 .filter_img .portfolio_dscr .wrap_padding,
+.columns4 .filter_img .portfolio_dscr .wrap_padding {
+	color:#ff8d00;
+}
+.widget_about .signature,
+header nav ul.sub-menu li a:hover, 
+header nav ul.sub-menu li:hover a,
+header nav ul.sub-menu li.current-menu-item a,
+header nav ul.sub-menu li:hover ul.sub-menu li:hover a,
+header nav ul.sub-menu li:hover ul.sub-menu li.current-menu-item a,
+.carouselslider ul li .item:hover .carousel_title h4 a:hover	 {
+	color:#ff8d00!important;
+}
+
+.widget_flickr .flickr_badge_image .flickr_wrapper,
+.shortcode_promoblock,
+.shortcode_iconbox,
+.carouselslider ul li .item,
+.widget_nav_menu ul li a,
+.shortcode_accordion_item_title, 
+.shortcode_toggles_item_title,
+.blog_info_block,
+.pagerblock li a.current,
+.pagerblock li a:hover,
+ol.commentlist  li .stand_comment,
+.feedback_form .field-name,
+.feedback_form .field-email,
+.feedback_form .field-subject,
+.feedback_form .field-message,
+#commentform .form_field,
+.module_highlighter .highlighter_item a,
+hr.colored,
+.shortcode_tab_item_title:hover,
+.shortcode_tab_item_title.active,
+.shortcode_messagebox.box_type2,
+.columns2 .filter_img .portfolio_dscr,
+.columns3 .filter_img .portfolio_dscr,
+.columns4 .filter_img .portfolio_dscr {
+	border-color:#ff8d00!important;
+}
+
+.module_price_table .price_item .price_item_wrapper,
+.filter_navigation ul li ul li.selected a,
+.filter_navigation ul li ul li a:hover {
+	border-color:#ff8d00;
+}

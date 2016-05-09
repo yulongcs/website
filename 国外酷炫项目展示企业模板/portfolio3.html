@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="ie ie9"> <!--<![endif]-->
+<head>
+    <meta content="text/html; charset=gb2312" http-equiv="Content-Type"/>
+<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    
+    <!-- Mobile Specific Metas
+    +++++++++++++++++++++++++++ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>YellowProject - Portfolio : 3 Columns</title>
+    
+    <!-- Styles
+    	
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>+++++++++++++ -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+	<!--[if IE 8 ]><link rel="stylesheet" type="text/css" href="css/colors/color-default.css" id="theme_color"><![endif]-->
+
+    <!-- Scripts
+    +++++++++++++ -->
+    <!--[if IE 8 ]><script>
+        var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+        for (var i = 0; i < e.length; i++) {
+            document.createElement(e[i]);
+        }		
+    </script><![endif]-->    
+	<script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/sorting.js"></script>
+
+    <script type="text/javascript" src="js/theme.js"></script>    
+    <!-- Demo Panel -->
+	<script type="text/javascript" src="js/color_panel.js"></script>
+</head>
+
+<body>
+	<!-- H E A D E R -->
+<header>
+        <div class="header_wrapper container">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""  width="222" height="43" class="logo_def"><img src="images/retina/logo.png" alt="" width="222" height="43" class="logo_retina"></a>
+            <div class="slogan"><span>Lorem ipsum dolor sit amet egestas call us toll free +1 800 1313 666</span><hr></div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="javascript:void(0)">Home</a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">Layout1</a></li>
+                            <li><a href="home2.html">Layout2</a></li>
+                            <li><a href="home3.html">Layout3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="javascript:void(0)">Features</a>
+                        <ul class="sub-menu">
+                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="shortcodes.html">Shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li class="current-menu-parent"><a href="javascript:void(0)">Portfolio</a>
+                        <ul class="sub-menu">
+                            <li><a href="portfolio1.html">1 Column</a></li>
+                            <li><a href="portfolio2.html">2 Columns</a></li>
+                            <li class="current-menu-item"><a href="portfolio3.html">3 Columns</a></li>
+                            <li><a href="portfolio4.html">4 Columns</a></li>
+                            <li><a href="portfolio_post.html">Portfolio post</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="blog_full.html">Full width</a></li>
+                            <li><a href="blogpost_full.html">Blog post</a></li>
+                            <li><a href="javascript:void(0)">With sidebar</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog_left.html">Left sidebar</a></li>
+                                    <li><a href="blog_right.html">Right sidebar</a></li>
+                                    <li><a href="blogpost_sidebar.html">Blog post</a></li>
+                                </ul>
+                          </li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)">Contacts</a>
+                        <ul class="sub-menu">
+                            <li><a href="contact_full.html">Full width</a></li>
+                            <li><a href="contact_sidebar.html">With sidebar</a></li>
+                        </ul>
+                    </li>                
+                </ul><!-- .menu -->
+            </nav>
+            <nav class="mobile_header">
+                <select id="mobile_select"></select>
+            </nav>
+        </div><!-- .header_wrapper -->
+      <div class="clear"></div>
+</header>
+    <!-- C O N T E N T -->
+    <div class="content_wrapper">
+    	<div class="container">
+            <div class="content_block no-sidebar row">
+                <div class="fl-container span12">
+                	<div class="row">
+                        <div class="posts-block span12">
+                            <div class="contentarea">
+                                <div class="row-fluid">
+                                    <div class="span12 module_cont module_portfolio">
+                                        <div class="filter_block">
+                                            <div class="filter_navigation">
+                                                <ul id="options" class="splitter">
+                                                    <li>
+                                                        <ul data-option-key="filter" class="optionset">
+                                                            <li class="selected"><a data-option-value="*" href="#filter">All Works</a></li>
+                                                            <li><a title="View all post filed under Accounting" data-option-value=".accounting" href="#filter">Accounting</a></li>
+                                                            <li><a title="View all post filed under Programs" data-option-value=".programs" href="#filter">Programs</a></li>
+                                                            <li><a title="View all post filed under Promotion" data-option-value=".promotion" href="#filter">Promotion</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- .filter_navigation -->
+                                        </div><!-- .filter_block -->
+
+                                        <div class="portfolio_block image-grid columns3" id="list">
+                                            <div data-category="portraits" class="accounting element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio1.jpg" alt="" width="370" height="260" class="grey_img">
+                                                        <span class="post_type post_type_video"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Egestas &amp; Mauris Dolor net.
+                                                      	</div></div>
+                                                  </a>
+                                                </div>
+                                            </div>
+                                            <div data-category="portraits" class="programs element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio2.jpg" alt="" width="370" height="260">
+                                                        <span class="post_type post_type_image"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Duis ut scelerisque etmetus Nam.
+                                                      	</div></div>
+                                                  </a>
+                                                </div>
+                                            </div>
+                                            <div data-category="portraits" class="promotion element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio3.jpg" alt="" width="370" height="260">
+                                                        <span class="post_type post_type_image"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Scelerisque quisque non hendrerit. 
+                                                      	</div></div>
+                                                  </a>
+                                                </div>
+                                            </div>
+                                            <div data-category="portraits" class="accounting element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio4.jpg" alt="" width="370" height="260">
+                                                        <span class="post_type post_type_video"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Duis gravida scelerisque justo ac.
+														</div></div>
+                                                  </a>
+                                                </div>
+                                            </div>
+                                            <div data-category="portraits" class="programs element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio5.jpg" alt="" width="370" height="260">
+                                                        <span class="post_type post_type_image"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Sollicitudin ac lacus duis gravida.
+                                                        </div></div>
+													</a>
+                                                </div>
+                                            </div>
+                                            <div data-category="portraits" class="promotion element">
+                                                <div class="filter_img">
+                                                    <a href="portfolio_post.html">
+                                                    <img src="images/portfolio/portfolio6.jpg" alt="" width="370" height="260">
+                                                        <span class="post_type post_type_image"></span>
+                                                        <div class="portfolio_dscr"><div class="wrap_padding">
+                                                            Curabitur ultricies consectetur felis. 
+                                                        </div></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div><!-- .portfolio_block -->
+                                        <div class="clear"></div>
+                                        <div class="load_more_cont"><a href="#insert" class="btn_load_more get_portfolio_works_btn" data-count="1">Load more works<span></span></a></div>
+                                        <script>
+											items_set = [	//Gallery Data
+												{src : 'images/portfolio/portfolio1.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'accounting', title : '', description: 'Duis gravida scelerisque justo.'},	
+												{src : 'images/portfolio/portfolio2.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'programs', title : '', description: 'Dolor sit amet, consectetur.'},	
+												{src : 'images/portfolio/portfolio3.jpg', url : 'portfolio_post.html', post_type : 'video', category: 'promotion', title : '', description: 'Consectetur adipiscing elit.'},	
+												{src : 'images/portfolio/portfolio4.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'accounting', title : '', description: 'Lorem ipsum dolor sit.'},	
+												{src : 'images/portfolio/portfolio5.jpg', url : 'portfolio_post.html', post_type : 'video', category: 'programs', title : '', description: 'Nunc placerat nisi a eros.'},	
+												{src : 'images/portfolio/portfolio6.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'promotion', title : '', description: 'Morbi enim diam.'},	
+												{src : 'images/portfolio/portfolio7.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'accounting', title : '', description: 'Ut eget felis nisl.'},	
+												{src : 'images/portfolio/portfolio8.jpg', url : 'portfolio_post.html', post_type : 'video', category: 'programs', title : '', description: 'Morbi enim diam.'},	
+												{src : 'images/portfolio/portfolio9.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'promotion', title : '', description: 'Nam suscipit sagittis arcu.'},	
+												{src : 'images/portfolio/portfolio10.jpg', url : 'portfolio_post.html', post_type : 'image', category: 'accounting', title : '', description: 'Nunc placerat nisi a eros.'},	
+											];
+											$('#list').portfolio_addon({
+												type : 1,
+												load_count : 3,
+												items : items_set
+											});
+										</script>
+                                        
+                                    </div><!-- .module_portfolio -->
+                                </div><!-- .row-fluid -->
+								
+                            </div><!-- .contentarea -->
+                        </div>
+                        <div class="left-sidebar-block span3">
+                            <!-- Left Sidebar Text --> 	
+                        </div><!-- .left-sidebar -->
+                    </div>
+                    <div class="clear"><!-- ClearFix --></div>
+                </div><!-- .fl-container -->
+                <div class="right-sidebar-block span3">
+                    <aside class="sidebar">
+                        //Sidebar Text
+                    </aside>
+                </div><!-- .right-sidebar -->
+                <div class="clear"><!-- ClearFix --></div>
+            </div>
+        </div><!-- .container -->
+    </div><!-- .content_wrapper -->
+    <div class="pre_footer">
+    	<div class="container">
+            <aside id="footer_bar" class="row">
+            	<div class="span3">
+                    <div class="sidepanel widget_about">
+	                	<h4 class="sidebar_header">About Us</h4>
+                      <img src="images/pictures/pic_about_ltl.jpg" width="88" height="88" class="alignleft"/>
+                        <p>Verenam operibus furiam est conclusoque sponte rotfundo filia puella sed esse more!</p>
+                        <p>Defuncta ait est se in de eget vero quo accumsan in fuerat verenam operibus furiam est conclusoque sponte rotfundo filia puella sed esse more este functa ait est se in de eget vero quo!</p>
+                        <p>Accumsan in fuerat est amet consensit cellula filia navem auditum ait. Ingens ferro conparuit de me missam ne velocitate renovasti dolorum Reflexio mihi.</p>
+                        <span class="signature">Tom Edison, Company Owner</span>
+                    </div>
+                </div>
+            	<div class="span3">
+                    <div class="sidepanel widget_posts">
+                        <h4 class="sidebar_header">Featured Posts</h4>
+                        <ul class="recent_posts">
+                            <li>
+                                <div class="img_wrapper">
+                                  <img src="images/pictures/featured_widget1.jpg" width="88" height="88" class="alignleft"/>
+                                </div>
+                                <div class="recent_posts_content">
+                                    <span class="post_date">25 april 2019</span>
+                                    <p>Quisque ut nisl et neque ndilt mollis duis iaculis gravida.</p>
+                                    <span class="read_more"><a href="#">Read more...</a></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img_wrapper">
+                                  <img src="images/pictures/featured_widget2.jpg" width="88" height="88" class="alignleft"/>
+                                </div>
+                                <div class="recent_posts_content">
+                                    <span class="post_date">15 april 2019</span>
+                                    <p>Quisque ut nisl et neque ndilt mollis duis iaculis gravida.</p>
+                                    <span class="read_more"><a href="#">Read more...</a></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- .sidepanel -->
+                </div>
+            	<div class="span3">
+                    <div class="sidepanel widget_recent_entries">
+                        <h4 class="sidebar_header">Flickr Photostream</h4>
+                        <div class="widget_flickr">
+                            d
+                        </div>
+                    </div><!-- .widget_recent_entries -->
+                </div>
+            	<div class="span3">
+                    <div class="sidepanel widget_twitter">
+                       	<h4 class="sidebar_header">Latest Tweets</h4>
+                        <ul class="twitter_list tweet_1057"></ul>
+                        <script>
+                            $(document).ready(function(){
+                                $('.tweet_1057').tweet({
+									modpath: 'twitter/',
+									count: 3,
+									username : 'gt3themes'
+	                             });
+                            });															
+                        </script>
+                    </div><!-- .widget_twitter -->
+                </div>            	
+            </aside>
+        </div>
+    </div>
+    <footer>
+    	<div class="footer_wrapper container">
+            <a href="index.html" class="logo"><img src="images/logo_footer.png" alt=""  width="222" height="43" class="logo_def"><img src="images/retina/logo_footer.png" alt="" width="222" height="43" class="logo_retina"></a>
+            <div class="copyright">&copy; 2020 YellowProject. HTML5 Business Theme. All Rights Reserved.</div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="typography.html">Features</a></li>
+                    <li class="current-menu-parent"><a href="portfolio1.html">Portfolio</a></li>
+                    <li><a href="blog_full.html">Blog</a></li>
+                    <li><a href="contact_full.html">Contacts</a></li>                
+                </ul><!-- .menu -->
+            </nav>       
+            <div class="footer_tools">
+                <ul class="footer_socials main_socials">
+                    <li><a href="#" class="ico_social-facebook" title="Facebook"></a></li>
+                    <li><a href="#" class="ico_social-twitter" title="Twitter"></a></li>
+                    <li><a href="#" class="ico_social-flickr" title="Flickr"></a></li>
+                    <li><a href="#" class="ico_social-vimeo" title="Vimeo"></a></li>
+                    <li><a href="#" class="ico_social-tumbler" title="Tumblr"></a></li>
+                    <li><a href="#" class="ico_social-delicious" title="Delicious"></a></li>
+                </ul>            
+            	<div class="footer_search">
+                    <form name="search_form" method="get" action="" class="search_form">
+                        <input type="submit" name="submit_search" value="" title="" class="btn_search">
+                        <input type="text" name="search_field" value="Search the Site..." title="Search the Site..." class="field_search">                        
+                    </form>                
+                </div>
+                <div class="clear"></div>                
+            </div>
+        </div>
+	</footer>
+</body>
+</html>
